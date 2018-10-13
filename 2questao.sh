@@ -35,24 +35,27 @@ fi
 
 ## executo comando no server rasp (192.168.12.4)
 sshpass -p 'raspberry' ssh -o StrictHostKeyChecking=no pi@$ipServer "iperf -s" &
+sleep 5
 
 echo "rodando client..."
 for i in `seq 1 10`;
 do
-	ping -c 100 -i .1 $ipServer > saida2d-$i.out
-	ping -c 100 -s 1400 -i .1 $ipServer > saida2e-$i.out
-	ping -c 100 -s 8192 -i .1 $ipServer > saida2f-$i.out
+	sudo ping -c 100 -i .1 $ipServer > saida2d-$i.out
+	sudo ping -c 100 -s 1400 -i .1 $ipServer > saida2e-$i.out
+	sudo ping -c 100 -s 8192 -i .1 $ipServer > saida2f-$i.out
 	iperf -c $ipServer -t60 -i 1 > saida2g-$i.out
 done
 
-
+echo "[FINISHED - 1a parte]";
 ## 2a parte 
 	
 sshpass -p 'raspberry' ssh -o StrictHostKeyChecking=no pi@$ipServer pkill iperf
 sshpass -p 'raspberry' ssh -o StrictHostKeyChecking=no pi@$ipServer "iperf -s -u -l 56.0b" &
+sleep 5
 
 aux="m"
-for j in `seq 3 10`;
+
+for j in 3 5 10;
 do
 	for i in `seq 1 10`;
 	do
@@ -60,7 +63,7 @@ do
 	done
 done
 
-mkdir -p questao2logs
-mv saida2* questao1logs/
+mkdir -p questao2logs$altura-$distancia
+mv saida2* questao2logs$altura-$distancia/
 
 echo "[FINISHED]";
