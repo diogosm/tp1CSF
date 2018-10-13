@@ -1,0 +1,25 @@
+PING 192.168.12.4 (192.168.12.4) 8192(8220) bytes of data.
+8200 bytes from 192.168.12.4: icmp_seq=1 ttl=64 time=7819 ms
+8200 bytes from 192.168.12.4: icmp_seq=2 ttl=64 time=9159 ms
+8200 bytes from 192.168.12.4: icmp_seq=4 ttl=64 time=8983 ms
+8200 bytes from 192.168.12.4: icmp_seq=5 ttl=64 time=9584 ms
+8200 bytes from 192.168.12.4: icmp_seq=6 ttl=64 time=9825 ms
+8200 bytes from 192.168.12.4: icmp_seq=7 ttl=64 time=10452 ms
+8200 bytes from 192.168.12.4: icmp_seq=8 ttl=64 time=10542 ms
+8200 bytes from 192.168.12.4: icmp_seq=9 ttl=64 time=11212 ms
+8200 bytes from 192.168.12.4: icmp_seq=10 ttl=64 time=11518 ms
+8200 bytes from 192.168.12.4: icmp_seq=11 ttl=64 time=11942 ms
+8200 bytes from 192.168.12.4: icmp_seq=12 ttl=64 time=12244 ms
+8200 bytes from 192.168.12.4: icmp_seq=14 ttl=64 time=12502 ms
+8200 bytes from 192.168.12.4: icmp_seq=15 ttl=64 time=12792 ms
+8200 bytes from 192.168.12.4: icmp_seq=17 ttl=64 time=13396 ms
+8200 bytes from 192.168.12.4: icmp_seq=18 ttl=64 time=13340 ms
+8200 bytes from 192.168.12.4: icmp_seq=19 ttl=64 time=16534 ms
+8200 bytes from 192.168.12.4: icmp_seq=20 ttl=64 time=17680 ms
+8200 bytes from 192.168.12.4: icmp_seq=22 ttl=64 time=18082 ms
+8200 bytes from 192.168.12.4: icmp_seq=30 ttl=64 time=16819 ms
+8200 bytes from 192.168.12.4: icmp_seq=33 ttl=64 time=16244 ms
+
+--- 192.168.12.4 ping statistics ---
+100 packets transmitted, 20 received, 80% packet loss, time 15962ms
+rtt min/avg/max/mdev = 7819.694/12534.019/18082.139/3005.125 ms, pipe 98

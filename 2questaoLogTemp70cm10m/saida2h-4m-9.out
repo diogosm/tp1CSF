@@ -1,0 +1,38 @@
+------------------------------------------------------------
+Client connecting to 192.168.12.4, UDP port 5001
+Sending 56 byte datagrams, IPG target: 112.00 us (kalman adjust)
+UDP buffer size:  160 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.12.3 port 37731 connected with 192.168.12.4 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0- 1.0 sec  24.6 KBytes   201 Kbits/sec
+[  3]  1.0- 2.0 sec  21.1 KBytes   173 Kbits/sec
+[  3]  2.0- 3.0 sec  24.0 KBytes   196 Kbits/sec
+[  3]  3.0- 4.0 sec  22.8 KBytes   187 Kbits/sec
+[  3]  4.0- 5.0 sec  19.8 KBytes   162 Kbits/sec
+[  3]  5.0- 6.0 sec  19.6 KBytes   161 Kbits/sec
+[  3]  6.0- 7.0 sec  26.1 KBytes   214 Kbits/sec
+[  3]  7.0- 8.0 sec  19.9 KBytes   163 Kbits/sec
+[  3]  8.0- 9.0 sec  26.3 KBytes   215 Kbits/sec
+[  3]  9.0-10.0 sec  15.7 KBytes   129 Kbits/sec
+[  3] 10.0-11.0 sec  17.2 KBytes   141 Kbits/sec
+[  3] 11.0-12.0 sec  19.5 KBytes   159 Kbits/sec
+[  3] 12.0-13.0 sec  13.9 KBytes   114 Kbits/sec
+[  3] 13.0-14.0 sec  20.1 KBytes   164 Kbits/sec
+[  3] 14.0-15.0 sec  19.5 KBytes   160 Kbits/sec
+[  3] 15.0-16.0 sec  20.6 KBytes   169 Kbits/sec
+[  3] 16.0-17.0 sec  19.9 KBytes   163 Kbits/sec
+[  3] 17.0-18.0 sec  20.2 KBytes   165 Kbits/sec
+[  3] 18.0-19.0 sec  20.8 KBytes   170 Kbits/sec
+[  3] 19.0-20.0 sec  27.3 KBytes   224 Kbits/sec
+[  3] 20.0-21.0 sec  20.7 KBytes   170 Kbits/sec
+[  3] 21.0-22.0 sec  33.3 KBytes   273 Kbits/sec
+[  3] 22.0-23.0 sec  27.7 KBytes   227 Kbits/sec
+[  3] 23.0-24.0 sec  26.2 KBytes   215 Kbits/sec
+[  3] 24.0-25.0 sec  28.4 KBytes   233 Kbits/sec
+[  3] 25.0-26.0 sec  27.6 KBytes   226 Kbits/sec
+[  3] 26.0-27.0 sec  26.6 KBytes   218 Kbits/sec
+[  3] 27.0-28.0 sec  27.6 KBytes   226 Kbits/sec
+[  3] 28.0-29.0 sec  27.1 KBytes   222 Kbits/sec
+[  3]  0.0-30.0 sec   684 KBytes   187 Kbits/sec
+[  3] Sent 12511 datagrams

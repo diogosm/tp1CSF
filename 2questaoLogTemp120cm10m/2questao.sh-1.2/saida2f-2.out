@@ -1,0 +1,35 @@
+PING 192.168.12.4 (192.168.12.4) 8192(8220) bytes of data.
+From 192.168.12.3 icmp_seq=20 Destination Host Unreachable
+From 192.168.12.3 icmp_seq=21 Destination Host Unreachable
+From 192.168.12.3 icmp_seq=22 Destination Host Unreachable
+From 192.168.12.3 icmp_seq=78 Destination Host Unreachable
+From 192.168.12.3 icmp_seq=79 Destination Host Unreachable
+From 192.168.12.3 icmp_seq=80 Destination Host Unreachable
+From 192.168.12.3 icmp_seq=81 Destination Host Unreachable
+From 192.168.12.3 icmp_seq=82 Destination Host Unreachable
+From 192.168.12.3 icmp_seq=83 Destination Host Unreachable
+From 192.168.12.3 icmp_seq=84 Destination Host Unreachable
+From 192.168.12.3 icmp_seq=85 Destination Host Unreachable
+From 192.168.12.3 icmp_seq=86 Destination Host Unreachable
+From 192.168.12.3 icmp_seq=87 Destination Host Unreachable
+From 192.168.12.3 icmp_seq=88 Destination Host Unreachable
+From 192.168.12.3 icmp_seq=89 Destination Host Unreachable
+From 192.168.12.3 icmp_seq=90 Destination Host Unreachable
+From 192.168.12.3 icmp_seq=91 Destination Host Unreachable
+From 192.168.12.3 icmp_seq=92 Destination Host Unreachable
+8200 bytes from 192.168.12.4: icmp_seq=51 ttl=64 time=34411 ms
+From 192.168.12.3 icmp_seq=93 Destination Host Unreachable
+From 192.168.12.3 icmp_seq=94 Destination Host Unreachable
+From 192.168.12.3 icmp_seq=95 Destination Host Unreachable
+From 192.168.12.3 icmp_seq=96 Destination Host Unreachable
+From 192.168.12.3 icmp_seq=97 Destination Host Unreachable
+From 192.168.12.3 icmp_seq=98 Destination Host Unreachable
+From 192.168.12.3 icmp_seq=99 Destination Host Unreachable
+From 192.168.12.3 icmp_seq=100 Destination Host Unreachable
+8200 bytes from 192.168.12.4: icmp_seq=56 ttl=64 time=41201 ms
+8200 bytes from 192.168.12.4: icmp_seq=57 ttl=64 time=40652 ms
+8200 bytes from 192.168.12.4: icmp_seq=58 ttl=64 time=47780 ms
+
+--- 192.168.12.4 ping statistics ---
+100 packets transmitted, 4 received, +26 errors, 96% packet loss, time 68443ms
+rtt min/avg/max/mdev = 34411.901/41011.496/47780.393/4731.213 ms, pipe 45
