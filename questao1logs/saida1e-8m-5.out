@@ -8,4 +8,4 @@ UDP buffer size:  160 KByte (default)
 [  3]  0.0-10.6 sec  8.55 MBytes  6.80 Mbits/sec
 [  3] Sent 6099 datagrams
 [  3] Server Report:
-[  3]  0.0- 9.1 sec  8.55 MBytes  7.89 Mbits/sec  94.716 ms    0/ 6099 (0%)
+[  3]  0.0-9.1 sec  8.55 MBytes  7.89 Mbits/sec  94.716 ms    0/ 6099 (0%)
