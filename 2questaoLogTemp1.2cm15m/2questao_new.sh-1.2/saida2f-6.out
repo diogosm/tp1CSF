@@ -1,0 +1,42 @@
+PING 192.168.12.4 (192.168.12.4) 8192(8220) bytes of data.
+8200 bytes from 192.168.12.4: icmp_seq=1 ttl=64 time=3893 ms
+From 192.168.12.3 icmp_seq=53 Destination Host Unreachable
+From 192.168.12.3 icmp_seq=54 Destination Host Unreachable
+From 192.168.12.3 icmp_seq=55 Destination Host Unreachable
+8200 bytes from 192.168.12.4: icmp_seq=2 ttl=64 time=15696 ms
+From 192.168.12.3 icmp_seq=56 Destination Host Unreachable
+From 192.168.12.3 icmp_seq=57 Destination Host Unreachable
+From 192.168.12.3 icmp_seq=58 Destination Host Unreachable
+8200 bytes from 192.168.12.4: icmp_seq=3 ttl=64 time=19363 ms
+8200 bytes from 192.168.12.4: icmp_seq=4 ttl=64 time=19780 ms
+8200 bytes from 192.168.12.4: icmp_seq=5 ttl=64 time=19861 ms
+8200 bytes from 192.168.12.4: icmp_seq=6 ttl=64 time=20204 ms
+8200 bytes from 192.168.12.4: icmp_seq=10 ttl=64 time=20247 ms
+8200 bytes from 192.168.12.4: icmp_seq=11 ttl=64 time=20411 ms
+From 192.168.12.3 icmp_seq=59 Destination Host Unreachable
+From 192.168.12.3 icmp_seq=60 Destination Host Unreachable
+From 192.168.12.3 icmp_seq=61 Destination Host Unreachable
+8200 bytes from 192.168.12.4: icmp_seq=12 ttl=64 time=20884 ms
+From 192.168.12.3 icmp_seq=62 Destination Host Unreachable
+From 192.168.12.3 icmp_seq=63 Destination Host Unreachable
+From 192.168.12.3 icmp_seq=64 Destination Host Unreachable
+From 192.168.12.3 icmp_seq=65 Destination Host Unreachable
+From 192.168.12.3 icmp_seq=66 Destination Host Unreachable
+From 192.168.12.3 icmp_seq=67 Destination Host Unreachable
+From 192.168.12.3 icmp_seq=68 Destination Host Unreachable
+From 192.168.12.3 icmp_seq=69 Destination Host Unreachable
+From 192.168.12.3 icmp_seq=70 Destination Host Unreachable
+8200 bytes from 192.168.12.4: icmp_seq=13 ttl=64 time=32076 ms
+8200 bytes from 192.168.12.4: icmp_seq=15 ttl=64 time=50279 ms
+8200 bytes from 192.168.12.4: icmp_seq=16 ttl=64 time=50271 ms
+8200 bytes from 192.168.12.4: icmp_seq=17 ttl=64 time=50296 ms
+8200 bytes from 192.168.12.4: icmp_seq=18 ttl=64 time=50250 ms
+8200 bytes from 192.168.12.4: icmp_seq=19 ttl=64 time=50166 ms
+8200 bytes from 192.168.12.4: icmp_seq=21 ttl=64 time=50001 ms
+8200 bytes from 192.168.12.4: icmp_seq=22 ttl=64 time=49946 ms
+8200 bytes from 192.168.12.4: icmp_seq=23 ttl=64 time=49897 ms
+8200 bytes from 192.168.12.4: icmp_seq=24 ttl=64 time=49807 ms
+
+--- 192.168.12.4 ping statistics ---
+100 packets transmitted, 19 received, +18 errors, 81% packet loss, time 46416ms
+rtt min/avg/max/mdev = 3893.762/33859.911/50296.707/16109.629 ms, pipe 86
