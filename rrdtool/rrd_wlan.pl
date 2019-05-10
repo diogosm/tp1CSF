@@ -13,6 +13,9 @@ my $rrd = '/var/lib/rrd';
 my $img = '/var/www/html/rrdtool';
 
 # process data for each interface (add/delete as required)
+# Lembre se de dá permissão de escrita na /var/www/html
+# Lembre se de dá permissão de escrita na /var/lib/rrd
+# 	sudo chmod a+w $PASTA
 &ProcessInterface("wlan0", "CsF tp1 link");
 
 sub ProcessInterface
